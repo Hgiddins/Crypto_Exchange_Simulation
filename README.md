@@ -10,12 +10,18 @@ This project provides a basic simulation environment for cryptocurrency trading.
 - **Wallet Management**: Keep track of your cryptocurrency wallet.
 - **Price-Time Priority Matching Algorithm**: Incorporates FIFO sequencing and allows partial order completions on a Pro Rata basis.
 
-## Compilation 
+## Compilation & Execution
+
+To compile:
+```bash
 g++ --std=c++11 main.cpp OrderBookEntry.cpp MerkelMain.cpp OrderBook.cpp CSVReader.cpp Wallet.cpp
+```
 
-## Execution
+To run
+
+```bash
 ./a.out
-
+```
 # Simulator Options
 
 Options:
